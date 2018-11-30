@@ -1,0 +1,105 @@
+﻿* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF7E7;
+    color: #403831;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.0em;
+}
+
+h3, p {
+    font-size: 1.5em;
+    display: inline;
+}
+
+header {
+    padding-top: 13px;
+}
+
+fieldset {
+    border: 2px solid;
+    margin-bottom: 25px;
+    padding-bottom: 8px;
+}
+
+input[type=text] {
+    width: 100%;
+    border: 1px solid;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    border: 2px solid;
+}
+
+label {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 0px 7px;
+    margin: 0px 0px 0px 25px;
+}
+
+.input_and_validator_wrapper {
+    display: flex;
+}
+
+.input_button {
+    width: 47%;
+    padding: 8px 20px;
+    border: 1px solid;
+}
+
+.input_button:active {
+    background-color: #403831;
+    color: #FDF7E7;
+}
+
+.input_item {
+    display: block;
+}
+
+.input_span {
+    display: block;
+    width: 450px;
+    margin: 15px auto;
+}
+
+.input_validator {
+    display: inline;
+}
+
+.text_input_region {
+    text-align: center;
+}
+
+#button_holder {
+    display: flex;
+    justify-content: space-around;
+}
+
+#errors_div {
+    height: 55px;
+    width: 100%;
+}
+
+#item_calories:focus, #total_items:focus, #total_calories:focus {
+    border: 1px solid;
+}
+
+#main_section {
+    width: 500px;
+    margin: 15px auto 0px auto;
+}
